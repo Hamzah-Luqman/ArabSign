@@ -1,2 +1,2 @@
 # ArabSign
-The data and code will be avilable soon.
+The data and code will be available soon.
