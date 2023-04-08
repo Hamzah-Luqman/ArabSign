@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ArabSign-A continuous Sign Language Dataset">
+    <meta name="author" content="Hamzah Luqman">
+    <title>ArabSign-A continuous Sign Language Dataset </title>
+    <link rel="favicon" href="assets/images/favicon.png">
+    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Custom styles for our template -->
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Button for smallest screens -->
+                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" alt="ArabSign"></a>
+            </div>
+            <!-- <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-right mainNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="fees.html">Fees</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="sidebar-right.html">Right Sidebar</a></li>
+                            <li><a href="#">Dummy Link1</a></li>
+                            <li><a href="#">Dummy Link2</a></li>
+                            <li><a href="#">Dummy Link3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div> -->
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+    <!-- /.navbar -->
+
+    <header id="head" class="secondary">
+        <div class="container" >
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2>ArabSign-A continuous Arabic Sign Language Dataset</h2>
+
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- container -->
+    <section class="container">
+        <section class="col-sm-8 maincontent">
+        <div class="row">
+
+
+ 
+<!-- /Sidebar -->
+
+
+            <section class="col-sm-12 maincontent">
+
+                <img src="assets/images/ArabSignSample.png" alt="" class="img-rounded pull-right" width="900">
+                 
+            </section>
+            <!-- main content -->
+            <section class="col-sm-12 maincontent">
+                <h3>About ArabSign</h3>
+                <p>
+                   
+                    ArabSign, a continuous Arabic sign language (ArSL) dataset consists of 9,335 samples representing 50
+                    sentences of Arabic sign language. The dataset’s sentences were performed by 6 signers. Each sentence was repeated by each signer at
+                    least 30 times at different sessions. All signers are male with
+                    different skin colors. The signers’ ages range between 21 and
+                    30 years old. All signers are right-handed, and one of them
+                    was wearing eyeglasses.
+                </p>
+                    <p>ArabSign dataset was recorded using a Kinect V2 camera that provides three types of information (color, depth, and skeleton joint points) recorded simultaneously for each sentence. 
+                    In addition, we provide the annotation of the dataset according to Arabic sign language and Arabic language structures that can help in studying the linguistic characteristics of ArSL.                </p>
+                   
+                    <img src="assets/images/ArabSign.png" alt="" class="img-rounded pull-right" width="900">
+
+                    </section>
+                    
+                    <!-- main content -->
+                    <section class="col-sm-12 maincontent" >
+                <h3>Dataset statistics</h3>
+                <p>  
+                    <img src="assets/images/modalities.PNG" alt="" class="img-rounded pull-right" width="300">
+
+                    The total time of the recorded sentences is around 10 hours and the average sentence's length is 3.1 signs. 
+                    The dataset’s sentences consist of 155 signs, and the
+                        dataset’s vocabulary consists of 95 signs. More than 40% of the dataset signs appeared less than 5 times.
+                        Having a large number of unique signs or signs that appear
+                        a few times makes the dataset appropriate for evaluating realtime recognition systems.
+                        The total time of the recorded sentences is around 10 hours
+                        and 13 minutes. The duration of each sentence depends on its
+                        length in terms of the number of signs and the signer’s signing
+                        speed. The average sentence length is 3.1 signs. The dataset
+                        was recorded at the normal speed of signing. Each sentence was signed continuously with no pauses between sentence’s
+                        signs. This resulted in around 200,000 frames for all sentences
+                        performed by one signer, with an average of 130.3 frames per
+                        sentence.</p>
+
+            </section>
+            <!-- main content -->
+            <section class="col-sm-12 maincontent">
+
+                <h3>Citation</h3>
+                <p> If you use ArabSign dataset, we kindly ask you to cite <a href="https://ieeexplore.ieee.org/abstract/document/10042720">ArabSign: A Multi-modality Dataset and Benchmark for Continuous Arabic Sign Language Recognition</a> <a href="https://arxiv.org/abs/2210.03951">(PDF)</a></p>
+                <pre><code>@INPROCEEDINGS{luqmanArabsign2023, 
+   author={Luqman, Hamzah},  
+   title={ArabSign: A Multi-modality Dataset and Benchmark for Continuous Arabic Sign Language Recognition}, 
+   booktitle={2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG)},  
+   year={2023},  
+   volume={},  
+   number={},  
+   pages={1-8},  
+   doi={10.1109/FG57933.2023.10042720}
+}</code>    
+                </pre>   
+
+            </section>
+            <section class="col-sm-12 maincontent"> 
+                <h3>Download</h3>
+                 <p> The dataset is available in three modalities:</p>
+                 <ul> 
+                    <li><a href="https://kfupmedusa-my.sharepoint.com/:f:/g/personal/hluqman_kfupm_edu_sa/EsPEcezdau5Nl7fGygqmwMgBbL7DSzru7r6fibacpFC3Cw?e=9nEfHU">Color</a></li>
+                    <li><a href="https://kfupmedusa-my.sharepoint.com/:f:/g/personal/hluqman_kfupm_edu_sa/Egmu1Nxb4ItAmF6NmbeIM50BiwnY6KGy-DVW_dF4yUuJnA?e=6nEbNd">Depth</a></li>
+                    <li><a href="https://kfupmedusa-my.sharepoint.com/:f:/g/personal/hluqman_kfupm_edu_sa/Ej4D-S5_ZB5FkVgd2hMEx7QB-JakU4ZCALqVX_txv_oGVw?e=vcYr9T">Skeleton joint points</a></li>
+  
+
+                 </ul>
+
+            </section>
+
+            <section class="col-sm-12 maincontent"> 
+                <h3>Code</h3>
+                 <p> To download the code that was used in the paper, please follow this <a href=""> link </a>.</p>
+                
+            </section>
+
+            <section class="col-sm-12 maincontent"> 
+                <h3>Contact</h3>
+                 <p> For more information, contact Hamzah Luqman (<a href="mailto:hluqman@kfupm.edu.sa"> hluqman@kfupm.edu.sa</a>) </p>
+                
+            </section>
+
+            <!-- /main -->
+
+            
+
+        </div>
+    </section>
+    <!-- Sidebar -->
+ <aside class="col-sm-4 sidebar sidebar-right">
+
+    <div class="panel">
+        <h4>Other Datasets</h4>
+        <ul class="list-unstyled list-spaces">
+            <li><a href="https://hamzah-luqman.github.io/KArSL/" target="_blank">KArSL</a><br>
+                <span class="small text-muted">A sign language dataset with 502 isolated signs.</span></li>
+             </ul>
+    </div>
+
+</aside> 
+    </section>
+    <!-- /container -->
+    <!-- <section class="team-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Download</h3>
+                    <p>Voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia.Voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia.Voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia.</p>
+                    <br />
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="team-member">
+                        <div class="member-img">
+                            <img class="img-responsive" src="assets/images/photo-1.jpg" alt="">
+                        </div>
+                        <h4>John Doe</h4>
+                        <span class="pos">CEO</span>
+                        <div class="team-socials">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section> -->
+    <footer id="footer">
+        <div class="container">
+            <div class="social text-center">
+                <a href="https://twitter.com/hamzahluqman_"><i class="fa fa-twitter"></i></a>
+                <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+                <!-- <a href="#"><i class="fa fa-dribbble"></i></a> -->
+                <!-- <a href="#"><i class="fa fa-flickr"></i></a> -->
+                <a href="https://github.com/hamzah-luqman"><i class="fa fa-github"></i></a>
+            </div>
+
+            <div class="clear"></div>
+            <!--CLEAR FLOATS-->
+        </div>
+        <div class="footer2">
+            <div class="container">
+                <div class="row">
+
+                    <!-- <div class="col-md-6 panel">
+                        <div class="panel-body">
+                            <p class="simplenav">
+                                <a href="index.html">Home</a> | 
+								<a href="about.html">About</a> |
+								<a href="courses.html">Courses</a> |
+                                <a href="fees.html">Fees</a> |
+								<a href="portfolio.html">Portfolio</a> |
+								<a href="contact.html">Contact</a>
+                            </p>
+                        </div>
+                    </div> -->
+
+                    <div class="col-md-6 panel">
+                        <div class="panel-body">
+                            <p class="text-right">
+                                Copyright &copy; 2023. Template by <a href="http://webthemez.com/" rel="develop">WebThemez.com</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /row of panels -->
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
