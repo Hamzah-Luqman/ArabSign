@@ -1,3 +1,3 @@
 # ArabSign
-The data and code will be available soon. However, to get the dataset, please send an email to hluqman@kfupm.edu.sa
+The dataset is available on <a href="https://hamzah-luqman.github.io/ArabSign/"> https://hamzah-luqman.github.io/ArabSign/ </a>
 
